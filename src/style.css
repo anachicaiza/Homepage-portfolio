@@ -4,7 +4,7 @@ h1 {
   font-size: 96px;
 }
 
-h3 {
+.hero .intro {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -38,9 +38,8 @@ h2 {
 
 p {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 27px;
 }
 
 .container p {
@@ -59,4 +58,28 @@ p {
   padding: 18px 30px;
   border-radius: 4px;
   font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .description {
+    padding: 0;
+    text-align: center;
+  }
 }
