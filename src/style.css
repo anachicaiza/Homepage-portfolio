@@ -90,6 +90,31 @@ p {
   font-size: 18px;
 }
 
+.container-content {
+  padding: 160px 20px;
+}
+
+.actual-content {
+  text-align: center;
+  margin: 30px;
+}
+
+.actual-content h1 {
+  font-size: 64px;
+  font-family: "Playfair Display", sans-serif;
+}
+.actual-content h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.actual-content p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
